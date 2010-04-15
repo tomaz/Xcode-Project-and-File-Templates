@@ -1,0 +1,5 @@
+{
+	MainTemplateFile = "class.m";
+	CounterpartTemplateFile = "class.h";
+	Description = "An Objective-C class which is a subclass of NSView, with an optional header file which includes the <Cocoa/Cocoa.h> header.";
+}

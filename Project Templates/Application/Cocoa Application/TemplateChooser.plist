@@ -1,0 +1,18 @@
+{
+	Checkboxes = (
+		{
+			Key = CoreData;
+			Title = "Use Core Data for storage";
+		},
+		{
+			Key = Unit;
+			Title = "Include Unit Testing";
+			EnableRule = CoreData;
+		},
+	);
+	TemplateSelection = {
+		"" = "Cocoa Application";
+		CoreData = "Core Data Application";
+		CoreDataUnit = "Core Data Application with Unit Testing";
+	};
+}

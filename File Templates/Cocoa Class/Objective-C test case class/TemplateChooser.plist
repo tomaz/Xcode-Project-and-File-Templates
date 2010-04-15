@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OptionsLabel</key>
+	<string>Test type:</string>
+	<key>PopupMenu</key>
+	<array>
+		<dict>
+			<key>Key</key>
+			<string>GHUnit</string>
+			<key>Title</key>
+			<string>GHTestCase subclass</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>GBDatabaseTestingBase</string>
+			<key>Title</key>
+			<string>GBDatabaseTestingBase subclass</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>GBDatabaseTestingBaseNoHeader</string>
+			<key>Title</key>
+			<string>GBDatabaseTestingBase subclass without header</string>
+		</dict>
+	</array>
+	<key>TemplateSelection</key>
+	<dict>
+		<key></key>
+		<string>Objective-C test case class</string>
+		<key>GHUnit</key>
+		<string>Objective-C test case class</string>
+		<key>GBDatabaseTestingBase</key>
+		<string>Database test case class</string>
+		<key>GBDatabaseTestingBaseNoHeader</key>
+		<string>Database test case class with no header</string>
+	</dict>
+</dict>
+</plist>
