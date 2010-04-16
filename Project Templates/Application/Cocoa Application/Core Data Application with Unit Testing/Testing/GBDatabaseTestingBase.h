@@ -22,4 +22,7 @@
 	GBDatabaseTester* databaseTester;
 }
 
+- (void) injectInMemoryDatabaseProvider;
+- (void) restoreOriginalDatabaseProvider;
+
 @end

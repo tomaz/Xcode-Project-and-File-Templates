@@ -6,7 +6,6 @@
 //  Copyright (C) ___YEAR___, ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "GBDatabaseTester.h"
 #import "GBDatabaseTestingBase.h"
 
 @implementation GBDatabaseTestingBase
@@ -16,15 +15,27 @@
 - (void) setUp
 {
 	registry = [[GBTestObjectsRegistry alloc] init];
-	databaseTester = [[GBDatabaseTester alloc] init];
-	[databaseTester injectInMemoryDatabaseProvider];
+	[self injectInMemoryDatabaseProvider];
 }
 
 - (void) tearDown
 {
-	[databaseTester restoreOriginalDatabaseProvider];
-	[databaseTester invalidate], databaseTester = nil;
+	[self restoreOriginalDatabaseProvider];
 	[registry invalidate], registry = nil;
+}
+
+#pragma mark Database handling
+
+- (void) injectInMemoryDatabaseProvider
+{
+	logNormal(@"Injecting in-memory database provider...");
+	[GBModelController sharedGBModelController].databaseProvider = [[GBDatabaseProvider alloc] initWithInMemoryStoreType];
+}
+
+- (void) restoreOriginalDatabaseProvider
+{
+	logNormal(@"Restoring original database provider...");
+	[GBModelController sharedGBModelController].databaseProvider = nil;
 }
 
 @end
