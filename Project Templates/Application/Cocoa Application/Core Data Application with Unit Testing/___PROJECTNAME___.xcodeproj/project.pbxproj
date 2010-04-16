@@ -25,8 +25,9 @@
 		73062F031173C74C000AB6D1 /* GBModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062F021173C74C000AB6D1 /* GBModelController.m */; };
 		734456551175C43B003AB2BD /* NSDate+GBDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E801173C2BC000AB6D1 /* NSDate+GBDate.m */; };
 		734456561175C43E003AB2BD /* NSObject+GBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E821173C2BC000AB6D1 /* NSObject+GBObject.m */; };
+		7373EAA71178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373EAA61178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m */; };
+		7373EAA81178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373EAA61178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m */; };
 		73AB093C117494F5003619CB /* GBDatabaseTestingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB093B117494F5003619CB /* GBDatabaseTestingBase.m */; };
-		73AB093F11749534003619CB /* GBDatabaseTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB093E11749534003619CB /* GBDatabaseTester.m */; };
 		73AB09421174957A003619CB /* GBTestObjectsRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB09411174957A003619CB /* GBTestObjectsRegistry.m */; };
 		73AB094511749668003619CB /* GBKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB094411749668003619CB /* GBKVOObserver.m */; };
 		73B48D661174976E002D8922 /* GBNotificationObserverNiceMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B48D651174976E002D8922 /* GBNotificationObserverNiceMock.m */; };
@@ -176,10 +177,11 @@
 		73062ED21173C6D5000AB6D1 /* NSObject+DDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DDExtensions.m"; sourceTree = "<group>"; };
 		73062F011173C74C000AB6D1 /* GBModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBModelController.h; sourceTree = "<group>"; };
 		73062F021173C74C000AB6D1 /* GBModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBModelController.m; sourceTree = "<group>"; };
+		7373EAA51178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GBDebuggingOptions.h"; sourceTree = "<group>"; };
+		7373EAA61178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GBDebuggingOptions.m"; sourceTree = "<group>"; };
+		7373EAD51178B63500F2D3E5 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = "<group>"; };
 		73AB093A117494F5003619CB /* GBDatabaseTestingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDatabaseTestingBase.h; sourceTree = "<group>"; };
 		73AB093B117494F5003619CB /* GBDatabaseTestingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDatabaseTestingBase.m; sourceTree = "<group>"; };
-		73AB093D11749534003619CB /* GBDatabaseTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDatabaseTester.h; sourceTree = "<group>"; };
-		73AB093E11749534003619CB /* GBDatabaseTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDatabaseTester.m; sourceTree = "<group>"; };
 		73AB09401174957A003619CB /* GBTestObjectsRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBTestObjectsRegistry.h; sourceTree = "<group>"; };
 		73AB09411174957A003619CB /* GBTestObjectsRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBTestObjectsRegistry.m; sourceTree = "<group>"; };
 		73AB094311749668003619CB /* GBKVOObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBKVOObserver.h; sourceTree = "<group>"; };
@@ -342,6 +344,8 @@
 				73062E801173C2BC000AB6D1 /* NSDate+GBDate.m */,
 				73062E811173C2BC000AB6D1 /* NSObject+GBObject.h */,
 				73062E821173C2BC000AB6D1 /* NSObject+GBObject.m */,
+				7373EAA51178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.h */,
+				7373EAA61178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m */,
 				73062DE31173BCC3000AB6D1 /* GBServiceProvider.h */,
 				73062DE41173BCC3000AB6D1 /* GBServiceProvider.m */,
 				73062DE11173BCC3000AB6D1 /* GBDatabaseProvider.h */,
@@ -410,6 +414,7 @@
 			isa = PBXGroup;
 			children = (
 				73062EB11173C5C1000AB6D1 /* FactoryDefaults.plist */,
+				7373EAD51178B63500F2D3E5 /* readme.markdown */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -430,8 +435,6 @@
 			children = (
 				73AB093A117494F5003619CB /* GBDatabaseTestingBase.h */,
 				73AB093B117494F5003619CB /* GBDatabaseTestingBase.m */,
-				73AB093D11749534003619CB /* GBDatabaseTester.h */,
-				73AB093E11749534003619CB /* GBDatabaseTester.m */,
 				73AB09401174957A003619CB /* GBTestObjectsRegistry.h */,
 				73AB09411174957A003619CB /* GBTestObjectsRegistry.m */,
 				73AB094311749668003619CB /* GBKVOObserver.h */,
@@ -672,7 +675,6 @@
 			files = (
 				73D87EE3117491130015C80E /* GHUnitTestMain.m in Sources */,
 				73AB093C117494F5003619CB /* GBDatabaseTestingBase.m in Sources */,
-				73AB093F11749534003619CB /* GBDatabaseTester.m in Sources */,
 				73AB09421174957A003619CB /* GBTestObjectsRegistry.m in Sources */,
 				73AB094511749668003619CB /* GBKVOObserver.m in Sources */,
 				73B48D661174976E002D8922 /* GBNotificationObserverNiceMock.m in Sources */,
@@ -681,6 +683,7 @@
 				73B48DB011749823002D8922 /* GBServiceProvider.m in Sources */,
 				734456551175C43B003AB2BD /* NSDate+GBDate.m in Sources */,
 				734456561175C43E003AB2BD /* NSObject+GBObject.m in Sources */,
+				7373EAA71178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +706,7 @@
 				73062ED31173C6D5000AB6D1 /* DDInvocationGrabber.m in Sources */,
 				73062ED41173C6D5000AB6D1 /* NSObject+DDExtensions.m in Sources */,
 				73062F031173C74C000AB6D1 /* GBModelController.m in Sources */,
+				7373EAA81178B34E00F2D3E5 /* NSDictionary+GBDebuggingOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
