@@ -7,4 +7,5 @@
 	#import <BHLogger/BHLogger.h>
 	#import "NSObject+GBObject.h"
 	#import "NSDate+GBDate.h"
+	#import "NSDictionary+GBDebuggingOptions.h"
 #endif
