@@ -3,7 +3,7 @@ Xcode Project and File templates
 
 Project and file templates I use for my daily work. Described in my blog at
 
-http://www.gentlebytes.com/2010/04/using-core-data-and-unit-testing-in-modern-application/
+http://www.gentlebytes.com/2010/04/xcode-project-using-coredata/
 
 You are free to use/modify the templates for your own needs!
 
