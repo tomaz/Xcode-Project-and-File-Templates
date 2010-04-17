@@ -348,7 +348,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* ___PROJECTNAME___ */ = {
+		8D1107260486CEB800E47090 /* BHLog Viewer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */;
 			buildPhases = (
@@ -385,7 +385,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* ___PROJECTNAME___ */,
+				8D1107260486CEB800E47090 /* BHLog Viewer */,
 			);
 		};
 /* End PBXProject section */
