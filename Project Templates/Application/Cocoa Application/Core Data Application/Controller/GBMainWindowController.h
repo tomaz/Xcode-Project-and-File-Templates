@@ -1,5 +1,5 @@
 //
-//  MainWindowController.h
+//  GBMainWindowController.h
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -15,7 +15,7 @@
  This is where the application's main window is driven from. It acts as the root for view
  hieararchy of the main window.
  */
-@interface MainWindowController : GBWindowController
+@interface GBMainWindowController : GBWindowController
 {
 }
 

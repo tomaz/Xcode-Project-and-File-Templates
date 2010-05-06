@@ -1,14 +1,14 @@
 //
-//  MainWindowController.m
+//  GBMainWindowController.m
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright (C) ___YEAR___, ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "MainWindowController.h"
+#import "GBMainWindowController.h"
 
-@implementation MainWindowController
+@implementation GBMainWindowController
 
 #pragma mark Initialization & disposal
 

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73062D861173BA98000AB6D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062D851173BA98000AB6D1 /* AppDelegate.m */; };
+		73062D861173BA98000AB6D1 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062D851173BA98000AB6D1 /* GBAppDelegate.m */; };
 		73062DB51173BB3C000AB6D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73062DB41173BB3C000AB6D1 /* MainMenu.xib */; };
 		73062DE51173BCC3000AB6D1 /* GBDatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062DE21173BCC3000AB6D1 /* GBDatabaseProvider.m */; };
 		73062DE61173BCC3000AB6D1 /* GBServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062DE41173BCC3000AB6D1 /* GBServiceProvider.m */; };
-		73062E621173BFBD000AB6D1 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E611173BFBD000AB6D1 /* MainWindowController.m */; };
+		73062E621173BFBD000AB6D1 /* GBMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E611173BFBD000AB6D1 /* GBMainWindowController.m */; };
 		73062E6E1173C014000AB6D1 /* XSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E6B1173C014000AB6D1 /* XSViewController.m */; };
 		73062E6F1173C014000AB6D1 /* XSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E6D1173C014000AB6D1 /* XSWindowController.m */; };
 		73062E781173C0CA000AB6D1 /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062E751173C0CA000AB6D1 /* GBViewController.m */; };
@@ -146,8 +146,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
-		73062D841173BA98000AB6D1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		73062D851173BA98000AB6D1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73062D841173BA98000AB6D1 /* GBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		73062D851173BA98000AB6D1 /* GBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
 		73062DB41173BB3C000AB6D1 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		73062DE11173BCC3000AB6D1 /* GBDatabaseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDatabaseProvider.h; sourceTree = "<group>"; };
 		73062DE21173BCC3000AB6D1 /* GBDatabaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDatabaseProvider.m; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		73062DE41173BCC3000AB6D1 /* GBServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBServiceProvider.m; sourceTree = "<group>"; };
 		73062E531173BE3A000AB6D1 /* DBObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBObjects.h; sourceTree = "<group>"; };
 		73062E5F1173BF15000AB6D1 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
-		73062E601173BFBD000AB6D1 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
-		73062E611173BFBD000AB6D1 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		73062E601173BFBD000AB6D1 /* GBMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMainWindowController.h; sourceTree = "<group>"; };
+		73062E611173BFBD000AB6D1 /* GBMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMainWindowController.m; sourceTree = "<group>"; };
 		73062E6A1173C014000AB6D1 /* XSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSViewController.h; sourceTree = "<group>"; };
 		73062E6B1173C014000AB6D1 /* XSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSViewController.m; sourceTree = "<group>"; };
 		73062E6C1173C014000AB6D1 /* XSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSWindowController.h; sourceTree = "<group>"; };
@@ -303,8 +303,8 @@
 			isa = PBXGroup;
 			children = (
 				73062DB41173BB3C000AB6D1 /* MainMenu.xib */,
-				73062D841173BA98000AB6D1 /* AppDelegate.h */,
-				73062D851173BA98000AB6D1 /* AppDelegate.m */,
+				73062D841173BA98000AB6D1 /* GBAppDelegate.h */,
+				73062D851173BA98000AB6D1 /* GBAppDelegate.m */,
 				73062DB61173BB4B000AB6D1 /* MainWindow */,
 				73062E701173C026000AB6D1 /* Controllers Base */,
 			);
@@ -331,8 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				73062E7A1173C203000AB6D1 /* MainWindow.xib */,
-				73062E601173BFBD000AB6D1 /* MainWindowController.h */,
-				73062E611173BFBD000AB6D1 /* MainWindowController.m */,
+				73062E601173BFBD000AB6D1 /* GBMainWindowController.h */,
+				73062E611173BFBD000AB6D1 /* GBMainWindowController.m */,
 			);
 			name = MainWindow;
 			sourceTree = "<group>";
@@ -693,10 +693,10 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				770B37ED0679A11B001EADE2 /* DataModel.xcdatamodel in Sources */,
-				73062D861173BA98000AB6D1 /* AppDelegate.m in Sources */,
+				73062D861173BA98000AB6D1 /* GBAppDelegate.m in Sources */,
 				73062DE51173BCC3000AB6D1 /* GBDatabaseProvider.m in Sources */,
 				73062DE61173BCC3000AB6D1 /* GBServiceProvider.m in Sources */,
-				73062E621173BFBD000AB6D1 /* MainWindowController.m in Sources */,
+				73062E621173BFBD000AB6D1 /* GBMainWindowController.m in Sources */,
 				73062E6E1173C014000AB6D1 /* XSViewController.m in Sources */,
 				73062E6F1173C014000AB6D1 /* XSWindowController.m in Sources */,
 				73062E781173C0CA000AB6D1 /* GBViewController.m in Sources */,

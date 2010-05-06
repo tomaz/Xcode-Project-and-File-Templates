@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  GBAppDelegate.m
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,19 +8,19 @@
 
 #import "GBDatabaseProvider.h"
 #import "GBModelController.h"
-#import "MainWindowController.h"
-#import "AppDelegate.h"
+#import "GBMainWindowController.h"
+#import "GBAppDelegate.h"
 
-@interface AppDelegate ()
+@interface GBAppDelegate ()
 
 - (void) terminateWithAlertMessage:(NSString*)message info:(NSString*)info;
-@property (readonly) MainWindowController* mainWindowController;
+@property (readonly) GBMainWindowController* mainWindowController;
 
 @end
 
 #pragma mark -
 
-@implementation AppDelegate
+@implementation GBAppDelegate
 
 #pragma mark Initialization & disposal
 
@@ -77,11 +77,11 @@
 
 #pragma mark User interface handling
 
-- (MainWindowController*) mainWindowController
+- (GBMainWindowController*) mainWindowController
 {
 	if (mainWindowController) return mainWindowController;
 	logInfo(@"Initializing main window controller...");
-	mainWindowController = [[MainWindowController alloc] init];
+	mainWindowController = [[GBMainWindowController alloc] init];
 	return mainWindowController;
 }
 

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  GBAppDelegate.h
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class MainWindowController;
+@class GBMainWindowController;
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -17,9 +17,9 @@
  Application delegate is the principal class where the application comes to live and
  the one that binds together the whole user interface with the underlying model.
  */
-@interface AppDelegate : NSObject
+@interface GBAppDelegate : NSObject
 {
-	MainWindowController* mainWindowController;
+	GBMainWindowController* mainWindowController;
 }
 
 ///---------------------------------------------------------------------------------------
