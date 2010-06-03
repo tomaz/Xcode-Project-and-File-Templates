@@ -8,6 +8,44 @@ http://www.gentlebytes.com/2010/04/xcode-project-using-coredata/
 You are free to use/modify the templates for your own needs!
 
 
+Installation
+============
+
+To install, copy Application folder to ~/Library/Application Support/Developer/Shared/Xcode.
+Note that this will overwrite your existing `File Templates` and `Project Templates`
+folders; if you use other templates in there, copy each folder contents individually!
+
+After copying, the templates are ready to use (no Xcode restart is required!).
+
+
+Usage
+=====
+
+To use project templates, start a new project, then in Xcode New Project window, select
+Application option in the User Templates section on the left side of the window. This
+will present you with a Cocoa Application option on the right. At the bottom part of the
+window you can choose which template to use - just tick appropriate options and you're
+ready to go.
+
+Both Core Data projects include Sparkle framework, however you do need to enter few
+details manually to make it usable:
+
+1. First you need to supply the URL of your appcast file. Open your project's info.plist
+   file in Xcode and enter the URL as the value of SUFeedURL key. You can find the file
+   in Other Sources group.
+  
+2. Copy the contents of your public key file (it's called `dsa_pub.pem` by default)
+   into the `dsa_pub.pem` file inside Resources group (delete existing contents!).
+
+Sparkle auto-update check is set to daily by default. If you'd like to use other default
+update timing, change the value of the `SUScheduledCheckInterval` key as well. Note that
+both templates include the main menu item for manually checking for updates, but anything
+more is up to you (options on preferences window for example) - consult Sparkle documentation
+on github wiki pages for details on how to do that.
+
+This should be basically everything you need to get a working skeleton.
+
+
 LICENCE
 =======
 
