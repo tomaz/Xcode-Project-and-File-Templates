@@ -90,7 +90,6 @@
 		73062ED21173C6D5000AB6D1 /* NSObject+DDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DDExtensions.m"; sourceTree = "<group>"; };
 		73062F011173C74C000AB6D1 /* GBModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBModelController.h; sourceTree = "<group>"; };
 		73062F021173C74C000AB6D1 /* GBModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBModelController.m; sourceTree = "<group>"; };
-		7373EAD41178B54000F2D3E5 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = "<group>"; };
 		738A6519117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GBDebuggingOptions.h"; sourceTree = "<group>"; };
 		738A651A117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GBDebuggingOptions.m"; sourceTree = "<group>"; };
 		73B715E611B8227800BD7D8E /* DDConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDConsoleLogger.h; sourceTree = "<group>"; };
@@ -316,7 +315,6 @@
 			children = (
 				73062EB11173C5C1000AB6D1 /* FactoryDefaults.plist */,
 				73F9B61B11B84A3300DDB24D /* dsa_pub.pem */,
-				7373EAD41178B54000F2D3E5 /* readme.markdown */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
