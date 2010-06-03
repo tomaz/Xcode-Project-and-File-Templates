@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>This project builds a Core Data application with CocoaLumberjack framework for logging and BHUnit, OCMock and OCHamcrest frameworks for unit testing.</string>
+	<string>This project builds a Core Data application which uses CocoaLumberjack framework for logging, Sparkle framework for updating and BHUnit, OCMock and OCHamcrest frameworks for unit testing.</string>
 	<key>FilesToMacroExpand</key>
 	<array>
 		<string>___PROJECTNAMEASIDENTIFIER____Prefix.pch</string>
