@@ -29,6 +29,9 @@
 		73B715EE11B8227800BD7D8E /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715EB11B8227800BD7D8E /* DDLog.m */; };
 		73B715F111B822A000BD7D8E /* GBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715F011B822A000BD7D8E /* GBLog.m */; };
 		73B715F411B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715F311B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m */; };
+		73F9B5E611B8495800DDB24D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F9B5E511B8495800DDB24D /* Sparkle.framework */; };
+		73F9B5EF11B849AE00DDB24D /* Sparkle.framework in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 73F9B5E511B8495800DDB24D /* Sparkle.framework */; };
+		73F9B61C11B84A3300DDB24D /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 73F9B61B11B84A3300DDB24D /* dsa_pub.pem */; };
 		770B37ED0679A11B001EADE2 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* DataModel.xcdatamodel */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -42,6 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				73F9B5EF11B849AE00DDB24D /* Sparkle.framework in Copy Bundle Frameworks */,
 			);
 			name = "Copy Bundle Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +103,8 @@
 		73B715F011B822A000BD7D8E /* GBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBLog.m; sourceTree = "<group>"; };
 		73B715F211B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h"; sourceTree = "<group>"; };
 		73B715F311B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m"; sourceTree = "<group>"; };
+		73F9B5E511B8495800DDB24D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		73F9B61B11B84A3300DDB24D /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "___PROJECTNAMEASIDENTIFIER___-Info.plist"; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F9B5E611B8495800DDB24D /* Sparkle.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +139,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73F9B5E511B8495800DDB24D /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -184,7 +192,7 @@
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
-			name = Frameworks;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		73062D7F1173BA39000AB6D1 /* Controller */ = {
@@ -307,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				73062EB11173C5C1000AB6D1 /* FactoryDefaults.plist */,
+				73F9B61B11B84A3300DDB24D /* dsa_pub.pem */,
 				7373EAD41178B54000F2D3E5 /* readme.markdown */,
 			);
 			path = Resources;
@@ -391,9 +400,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				73062EB21173C5C1000AB6D1 /* FactoryDefaults.plist in Resources */,
+				73F9B61C11B84A3300DDB24D /* dsa_pub.pem in Resources */,
 				73062DB51173BB3C000AB6D1 /* MainMenu.xib in Resources */,
 				73062E7B1173C203000AB6D1 /* MainWindow.xib in Resources */,
-				73062EB21173C5C1000AB6D1 /* FactoryDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +457,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -465,6 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

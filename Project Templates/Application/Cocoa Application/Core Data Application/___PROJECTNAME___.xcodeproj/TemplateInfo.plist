@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>This project builds a Core Data application with CocoaLumberjack logging frameworks.</string>
+	<string>This project builds a Core Data application which uses CocoaLumberjack framework for logging and Sparkle for updates.</string>
 	<key>FilesToMacroExpand</key>
 	<array>
 		<string>___PROJECTNAMEASIDENTIFIER____Prefix.pch</string>
