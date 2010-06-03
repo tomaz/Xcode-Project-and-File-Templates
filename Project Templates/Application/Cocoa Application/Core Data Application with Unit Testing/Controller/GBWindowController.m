@@ -9,7 +9,7 @@
 #import "GBViewController.h"
 #import "GBWindowController.h"
 
-@implementation GBWindowController
+@implementation GBWindowController DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

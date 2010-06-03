@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 // Must send invalidate to remove observer!
-@interface GBKVOObserver : NSObject
+@interface GBKVOObserver : NSObject <GBDynamicLogger>
 {
 	id observedObject;
 	NSString* observedKeyPath;

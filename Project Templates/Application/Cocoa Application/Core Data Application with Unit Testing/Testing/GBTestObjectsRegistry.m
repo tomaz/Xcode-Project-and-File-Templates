@@ -8,7 +8,7 @@
 
 #import "GBTestObjectsRegistry.h"
 
-@implementation GBTestObjectsRegistry
+@implementation GBTestObjectsRegistry DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

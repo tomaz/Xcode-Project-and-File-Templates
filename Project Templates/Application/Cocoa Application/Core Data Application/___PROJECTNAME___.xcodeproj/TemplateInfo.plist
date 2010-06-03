@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>This project builds a Core Data application with BHLogging framework.</string>
+	<string>This project builds a Core Data application with CocoaLumberjack logging frameworks.</string>
 	<key>FilesToMacroExpand</key>
 	<array>
 		<string>___PROJECTNAMEASIDENTIFIER____Prefix.pch</string>
@@ -14,6 +14,8 @@
 		<string>English.lproj/MainMenu.xib</string>
 		<string>main.m</string>
 		<string>Common/NSObject+GBObject.m</string>
+		<string>Common/NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h</string>
+		<string>Common/NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m</string>
 	</array>
 	<key>FilesToRename</key>
 	<dict>

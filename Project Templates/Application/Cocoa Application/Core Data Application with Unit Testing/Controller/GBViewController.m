@@ -8,7 +8,7 @@
 
 #import "GBViewController.h"
 
-@implementation GBViewController
+@implementation GBViewController DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

@@ -18,7 +18,7 @@
 // Helps auto releasing/invalidating test objects. To use it, initialize in setup and
 // send invalidate at teardown, then use creation methods to create objects. All objects
 // that need to be invalidated will be so when the registry receives invalidate message.
-@interface GBTestObjectsRegistry : NSObject
+@interface GBTestObjectsRegistry : NSObject <GBDynamicLogger>
 {
 	NSMutableArray* autoInvalidateObjects;
 	NSMutableArray* notificationsObserverObjects;

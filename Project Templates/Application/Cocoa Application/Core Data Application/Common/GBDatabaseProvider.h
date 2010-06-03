@@ -16,7 +16,7 @@
 
  This is very generic and therefore reusable class.
  */
-@interface GBDatabaseProvider : NSObject
+@interface GBDatabaseProvider : NSObject <GBDynamicLogger>
 {
 	BOOL initializationFailed;
 	NSSortDescriptor* sortIndexSortDescriptor;

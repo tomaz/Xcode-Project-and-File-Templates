@@ -14,7 +14,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 /** Implements basic, application-wide window controller functionality.
  */
-@interface GBWindowController : XSWindowController
+@interface GBWindowController : XSWindowController <GBDynamicLogger>
 {
 	GBViewController* activeViewController;
 }

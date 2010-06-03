@@ -8,7 +8,7 @@
 
 #import "GBDatabaseTestingBase.h"
 
-@implementation GBDatabaseTestingBase
+@implementation GBDatabaseTestingBase DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Setup & tear down
 

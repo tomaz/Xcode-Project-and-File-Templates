@@ -13,6 +13,7 @@
 
 #pragma mark Initialization & disposal
 
+DECLARE_DYNAMIC_LOGGING_CLASS
 SYNTHESIZE_SINGLETON_FOR_CLASS(GBModelController);
 
 - (id) init

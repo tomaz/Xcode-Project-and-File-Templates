@@ -15,7 +15,7 @@
  This is where the application's main window is driven from. It acts as the root for view
  hieararchy of the main window.
  */
-@interface GBMainWindowController : GBWindowController
+@interface GBMainWindowController : GBWindowController <GBDynamicLogger>
 {
 }
 

@@ -9,7 +9,7 @@
 #import "SynthesizeSingleton.h"
 #import "GBModelController.h"
 
-@implementation GBModelController
+@implementation GBModelController DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

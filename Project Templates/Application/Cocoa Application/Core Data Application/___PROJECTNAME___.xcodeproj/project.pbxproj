@@ -23,31 +23,17 @@
 		73062ED31173C6D5000AB6D1 /* DDInvocationGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062ED01173C6D5000AB6D1 /* DDInvocationGrabber.m */; };
 		73062ED41173C6D5000AB6D1 /* NSObject+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062ED21173C6D5000AB6D1 /* NSObject+DDExtensions.m */; };
 		73062F031173C74C000AB6D1 /* GBModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73062F021173C74C000AB6D1 /* GBModelController.m */; };
-		7344557B1175AFAB003AB2BD /* BHLogger.framework in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 73D87DBF11748AF70015C80E /* BHLogger.framework */; };
-		7344557C1175AFAE003AB2BD /* BHLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D87DBF11748AF70015C80E /* BHLogger.framework */; };
 		738A651B117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 738A651A117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m */; };
+		73B715EC11B8227800BD7D8E /* DDConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715E711B8227800BD7D8E /* DDConsoleLogger.m */; };
+		73B715ED11B8227800BD7D8E /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715E911B8227800BD7D8E /* DDFileLogger.m */; };
+		73B715EE11B8227800BD7D8E /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715EB11B8227800BD7D8E /* DDLog.m */; };
+		73B715F111B822A000BD7D8E /* GBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715F011B822A000BD7D8E /* GBLog.m */; };
+		73B715F411B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B715F311B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m */; };
 		770B37ED0679A11B001EADE2 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* DataModel.xcdatamodel */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		73D87DBC11748AF70015C80E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 73D87DB411748AF70015C80E /* BHLogging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D1107320486CEB800E47090;
-			remoteInfo = "BHLog Viewer";
-		};
-		73D87DBE11748AF70015C80E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 73D87DB411748AF70015C80E /* BHLogging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3F6991C30B0EC21B007910F7;
-			remoteInfo = BHLogger;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		73062E4F1173BDDB000AB6D1 /* Copy Bundle Frameworks */ = {
@@ -56,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7344557B1175AFAB003AB2BD /* BHLogger.framework in Copy Bundle Frameworks */,
 			);
 			name = "Copy Bundle Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +89,16 @@
 		7373EAD41178B54000F2D3E5 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = "<group>"; };
 		738A6519117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GBDebuggingOptions.h"; sourceTree = "<group>"; };
 		738A651A117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GBDebuggingOptions.m"; sourceTree = "<group>"; };
-		73D87DB411748AF70015C80E /* BHLogging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BHLogging.xcodeproj; path = Common/ThirdParty/BHLogging/BHLogging.xcodeproj; sourceTree = "<group>"; };
+		73B715E611B8227800BD7D8E /* DDConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDConsoleLogger.h; sourceTree = "<group>"; };
+		73B715E711B8227800BD7D8E /* DDConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDConsoleLogger.m; sourceTree = "<group>"; };
+		73B715E811B8227800BD7D8E /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		73B715E911B8227800BD7D8E /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		73B715EA11B8227800BD7D8E /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		73B715EB11B8227800BD7D8E /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		73B715EF11B822A000BD7D8E /* GBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBLog.h; sourceTree = "<group>"; };
+		73B715F011B822A000BD7D8E /* GBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBLog.m; sourceTree = "<group>"; };
+		73B715F211B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h"; sourceTree = "<group>"; };
+		73B715F311B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m"; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "___PROJECTNAMEASIDENTIFIER___-Info.plist"; sourceTree = "<group>"; };
@@ -117,7 +111,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				7344557C1175AFAE003AB2BD /* BHLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +158,6 @@
 		29B97314FDCFA39411CA2CEA /* ___PROJECTNAMEASXML___ */ = {
 			isa = PBXGroup;
 			children = (
-				73D87DB411748AF70015C80E /* BHLogging.xcodeproj */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Source */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -242,6 +234,10 @@
 				73062E821173C2BC000AB6D1 /* NSObject+GBObject.m */,
 				738A6519117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.h */,
 				738A651A117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m */,
+				73B715F211B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h */,
+				73B715F311B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m */,
+				73B715EF11B822A000BD7D8E /* GBLog.h */,
+				73B715F011B822A000BD7D8E /* GBLog.m */,
 				73062DE31173BCC3000AB6D1 /* GBServiceProvider.h */,
 				73062DE41173BCC3000AB6D1 /* GBServiceProvider.m */,
 				73062DE11173BCC3000AB6D1 /* GBDatabaseProvider.h */,
@@ -269,6 +265,7 @@
 		73062E581173BEA6000AB6D1 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				73B715E511B8227700BD7D8E /* DDLog */,
 				73062ECD1173C6AE000AB6D1 /* DDFoundation */,
 				73062E631173BFE6000AB6D1 /* XSViewController */,
 				73062E681173BFF2000AB6D1 /* Miscellaneous */,
@@ -326,13 +323,17 @@
 			path = DDFoundation;
 			sourceTree = "<group>";
 		};
-		73D87DB511748AF70015C80E /* Products */ = {
+		73B715E511B8227700BD7D8E /* DDLog */ = {
 			isa = PBXGroup;
 			children = (
-				73D87DBD11748AF70015C80E /* BHLog Viewer.app */,
-				73D87DBF11748AF70015C80E /* BHLogger.framework */,
+				73B715E611B8227800BD7D8E /* DDConsoleLogger.h */,
+				73B715E711B8227800BD7D8E /* DDConsoleLogger.m */,
+				73B715E811B8227800BD7D8E /* DDFileLogger.h */,
+				73B715E911B8227800BD7D8E /* DDFileLogger.m */,
+				73B715EA11B8227800BD7D8E /* DDLog.h */,
+				73B715EB11B8227800BD7D8E /* DDLog.m */,
 			);
-			name = Products;
+			name = DDLog;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {
@@ -348,7 +349,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* BHLog Viewer */ = {
+		8D1107260486CEB800E47090 /* ___PROJECTNAME___ */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */;
 			buildPhases = (
@@ -377,35 +378,12 @@
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ___PROJECTNAMEASXML___ */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 73D87DB511748AF70015C80E /* Products */;
-					ProjectRef = 73D87DB411748AF70015C80E /* BHLogging.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* BHLog Viewer */,
+				8D1107260486CEB800E47090 /* ___PROJECTNAME___ */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		73D87DBD11748AF70015C80E /* BHLog Viewer.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "BHLog Viewer.app";
-			remoteRef = 73D87DBC11748AF70015C80E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		73D87DBF11748AF70015C80E /* BHLogger.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = BHLogger.framework;
-			remoteRef = 73D87DBE11748AF70015C80E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -442,6 +420,11 @@
 				73062ED41173C6D5000AB6D1 /* NSObject+DDExtensions.m in Sources */,
 				73062F031173C74C000AB6D1 /* GBModelController.m in Sources */,
 				738A651B117730FD00AC5F8B /* NSDictionary+GBDebuggingOptions.m in Sources */,
+				73B715EC11B8227800BD7D8E /* DDConsoleLogger.m in Sources */,
+				73B715ED11B8227800BD7D8E /* DDFileLogger.m in Sources */,
+				73B715EE11B8227800BD7D8E /* DDLog.m in Sources */,
+				73B715F111B822A000BD7D8E /* GBLog.m in Sources */,
+				73B715F411B8268600BD7D8E /* NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 #import "GBKVOObserver.h"
 
-@implementation GBKVOObserver
+@implementation GBKVOObserver DECLARE_DYNAMIC_LOGGING_CLASS
 
 + (id) observerForObject:(id)anObject keyPath:(NSString*)aKeyPath
 {

@@ -16,7 +16,7 @@
 // Automatically injects in-memory store and provides "raw" creation methods suited for
 // testing Core Data layer objects. All higher objects testing should instead use
 // ModelController creation methods!
-@interface GBDatabaseTestingBase : GHTestCase
+@interface GBDatabaseTestingBase : GHTestCase <GBDynamicLogger>
 {
 	GBTestObjectsRegistry* registry;
 	GBDatabaseTester* databaseTester;

@@ -20,18 +20,33 @@
 
 #pragma mark -
 
-@implementation GBAppDelegate
+@implementation GBAppDelegate DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 
 + (void) initialize
 {
+	// Copy defaults from factory settings plist.
+	NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
 	NSString* path = [[NSBundle mainBundle] pathForResource:@"FactoryDefaults" ofType:@"plist"];
 	if (path)
 	{
-		NSDictionary* defaults = [NSDictionary dictionaryWithContentsOfFile:path];
-		[[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
+		NSDictionary* factoryValues = [NSDictionary dictionaryWithContentsOfFile:path];
+		[defaults registerDefaults:factoryValues];
 	}
+	
+	// Initialize logging. Note that we force debug level on debug builds to simplify
+	// debugging in case unexpected behavior is encountered.
+	id formatter = defaults.loggingUseVerboseLogMessageFormat ? 
+		[[GBFullLogFormatter alloc] init] : 
+		[[GBSimpleLogFormatter alloc] init];
+	[[DDConsoleLogger sharedInstance] setLogFormatter:formatter];
+	[DDLog addLogger:[DDConsoleLogger sharedInstance]];
+#if BUILD_RELEASE
+	[DDLog updateLoggingLevelsOfAllClassesWithValue:defaults.loggingDefaultClassesLoggingLevel];
+#else
+	[DDLog updateLoggingLevelsOfAllClassesWithValue:LOG_LEVEL_DEBUG];
+#endif
 }
 
 - (void) invalidate
@@ -51,7 +66,6 @@
 
 - (void) applicationDidFinishLaunching:(NSNotification*)notification
 {
-	logInit(@"Initializing logging system...");
 	logNormal(@"Application did finish launching...");
 	self.databaseProvider.delegate = self;
 	[self.mainWindowController showWindow:self];

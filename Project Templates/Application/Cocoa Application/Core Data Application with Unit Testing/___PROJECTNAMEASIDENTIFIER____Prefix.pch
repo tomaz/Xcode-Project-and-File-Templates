@@ -4,8 +4,9 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
-	#import <BHLogger/BHLogger.h>
+	#import "GBLog.h"
 	#import "NSObject+GBObject.h"
 	#import "NSDate+GBDate.h"
 	#import "NSDictionary+GBDebuggingOptions.h"
+	#import "NSUserDefaults+___PROJECTNAMEASIDENTIFIER___Defaults.h"
 #endif

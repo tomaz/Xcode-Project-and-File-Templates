@@ -8,7 +8,7 @@
 
 #import "GBNotificationObserverNiceMock.h"
 
-@implementation GBNotificationObserverNiceMock
+@implementation GBNotificationObserverNiceMock DECLARE_DYNAMIC_LOGGING_CLASS
 
 + (id) mock
 {

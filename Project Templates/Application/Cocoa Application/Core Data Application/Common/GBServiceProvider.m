@@ -8,7 +8,7 @@
 
 #import "GBServiceProvider.h"
 
-@implementation GBServiceProvider
+@implementation GBServiceProvider DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

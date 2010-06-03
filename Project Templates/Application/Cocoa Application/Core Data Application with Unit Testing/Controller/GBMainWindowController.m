@@ -8,7 +8,7 @@
 
 #import "GBMainWindowController.h"
 
-@implementation GBMainWindowController
+@implementation GBMainWindowController DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

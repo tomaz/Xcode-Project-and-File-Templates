@@ -20,7 +20,7 @@
 
 #pragma mark -
 
-@implementation GBDatabaseProvider
+@implementation GBDatabaseProvider DECLARE_DYNAMIC_LOGGING_CLASS
 
 #pragma mark Initialization & disposal
 

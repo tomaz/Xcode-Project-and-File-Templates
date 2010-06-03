@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 // Allows testing specific notifications without caring if any other notification is posted.
-@interface GBNotificationObserverNiceMock : NSObject
+@interface GBNotificationObserverNiceMock : NSObject <GBDynamicLogger>
 {
 	NSString* expectedName;
 	NSNotification* notification;

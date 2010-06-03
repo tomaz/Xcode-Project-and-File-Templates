@@ -24,7 +24,7 @@
  and controller. This breaks a bit the boundary of where this object really belongs,
  however this makes the implementation much simpler and represents no real disadvantage.
  */
-@interface GBServiceProvider : NSObject
+@interface GBServiceProvider : NSObject <GBDynamicLogger>
 {
 	NSDictionary* debuggingOptions;
 	NSString* applicationName;

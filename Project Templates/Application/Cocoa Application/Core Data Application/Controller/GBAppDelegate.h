@@ -17,7 +17,7 @@
  Application delegate is the principal class where the application comes to live and
  the one that binds together the whole user interface with the underlying model.
  */
-@interface GBAppDelegate : NSObject
+@interface GBAppDelegate : NSObject <GBDynamicLogger>
 {
 	GBMainWindowController* mainWindowController;
 }

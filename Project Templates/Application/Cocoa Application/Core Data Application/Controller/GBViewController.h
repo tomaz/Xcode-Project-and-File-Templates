@@ -13,7 +13,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 /** Implements basic, application-wide view controller functionality.
  */
-@interface GBViewController : XSViewController
+@interface GBViewController : XSViewController <GBDynamicLogger>
 {
 	GBViewController* activeViewController;
 	NSView* firstKeyView;
