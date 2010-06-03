@@ -340,7 +340,7 @@
 				73B715EA11B8227800BD7D8E /* DDLog.h */,
 				73B715EB11B8227800BD7D8E /* DDLog.m */,
 			);
-			name = DDLog;
+			path = DDLog;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {

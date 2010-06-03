@@ -463,7 +463,7 @@
 				73B7167F11B8310E00BD7D8E /* DDLog.h */,
 				73B7168011B8310E00BD7D8E /* DDLog.m */,
 			);
-			name = DDLog;
+			path = DDLog;
 			sourceTree = "<group>";
 		};
 		73D87EBE1174902F0015C80E /* Testing */ = {

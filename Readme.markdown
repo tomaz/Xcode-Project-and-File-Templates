@@ -8,8 +8,8 @@ http://www.gentlebytes.com/2010/04/xcode-project-using-coredata/
 You are free to use/modify the templates for your own needs!
 
 
-Installation
-============
+Installation and Usage
+======================
 
 To install, copy Application folder to ~/Library/Application Support/Developer/Shared/Xcode.
 Note that this will overwrite your existing `File Templates` and `Project Templates`
@@ -18,8 +18,8 @@ folders; if you use other templates in there, copy each folder contents individu
 After copying, the templates are ready to use (no Xcode restart is required!).
 
 
-Usage
-=====
+Usage of Project Templates
+--------------------------
 
 To use project templates, start a new project, then in Xcode New Project window, select
 Application option in the User Templates section on the left side of the window. This
@@ -44,6 +44,36 @@ more is up to you (options on preferences window for example) - consult Sparkle 
 on github wiki pages for details on how to do that.
 
 This should be basically everything you need to get a working skeleton.
+
+
+Usage of File Templates
+-----------------------
+
+To use file templates, create a new file, then select Cocoa Class from User Templates
+section of Xcode New File window. On the right you'll see the option of selecting
+either Objective-C class or Objective-C test case class. In the bottom part of the
+window you can then select various options or subclasses to use. Note that most are
+suited for use with above custom project templates, but you may find them useful
+othewise too.
+
+
+Special Considerations
+----------------------
+
+If you'll use CocoaLumberjack logging framework, you might experience problems with your
+custom classes logging levels not being detected by DDLog class (especially if using
+`updateLoggingLevelsOfAllClassesWithValue:` or `updateLoggingLevelsForClasses:levelValue:`
+methods from `DDLog(GBLogExtensions)` category. The problem is due to custom subclasses
+are not detected as being registered by `DDLog`s private `isRegisteredClass:` method.
+The reason is in testing for conformance to `NSObject` protocol which rejects most
+classes, even though they are derived from `NSObject` class... I admit, I didn't go
+into details about this, so I've adopted a quick (and dirty) solution at the moment -
+for each of my classes, I make them conform to an empty `GBDynamicLogger` protocol
+and this solves the problem. Note that this MUST be done for each subclass as well!
+
+
+Thanks
+======
 
 
 LICENCE
