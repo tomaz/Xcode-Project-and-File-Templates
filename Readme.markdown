@@ -3,9 +3,10 @@ Xcode Project and File templates
 
 Project and file templates I use for my daily work. Described in my blog at
 
-http://www.gentlebytes.com/2010/04/xcode-project-using-coredata/
+[http://gentlebytes.com](http://www.gentlebytes.com/2010/04/xcode-project-using-coredata/)
 
-You are free to use/modify the templates for your own needs!
+Hope you'll find the templates useful. You are free to use/modify the templates for your 
+own needs!
 
 
 Installation and Usage
@@ -74,6 +75,22 @@ and this solves the problem. Note that this MUST be done for each subclass as we
 
 Thanks
 ======
+
+Project templates include the following open-source software from fellow Mac developers, 
+either full or partial (in no particular order):
+
+- CocoaLumberjack logging framework by Robbie Hanson [link](http://code.google.com/p/cocoalumberjack/).
+- DDFoundation by Dave Dribin [link](http://www.dribin.org/dave/software/)
+- XSViewController by Jonathan Dann and Cathy Shive [link](http://katidev.com/blog/2008/04/17/nsviewcontroller-the-new-c-in-mvc-pt-2-of-3/)
+- SynthesizeSingleton by Matt Gallagher [link](http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html)
+
+For unit testing I use the following (in addition to above mentioned):
+
+- GHUnit unit testing framework by Gabriel Handford [link](http://github.com/gabriel/gh-unit)
+- OCMock mock objects by 'Mulle Kibernetik' [link](http://www.mulle-kybernetik.com/software/OCMock/)
+- OCHamcrest framework [link](http://www.hamcrest.org/)
+
+A big thanks for all contributors!
 
 
 LICENCE
